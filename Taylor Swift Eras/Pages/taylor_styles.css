@@ -1,0 +1,352 @@
+@charset "utf-8";
+
+body{
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    background-image: url("../Images/body_background.jpg");
+    background-repeat: repeat;
+	
+}
+
+h1 {
+font-family:"Arvo";
+font-weight:normal;
+font-size: 50px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+
+h2 {
+font-family:"Arvo";
+font-weight: normal;
+font-size: 35px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+
+h3 {
+font-family: Oswald;
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+margin: 5px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+
+.center { 
+	margin: auto; 
+}
+
+.content{ 
+	margin: auto; 
+	width: 90%; 
+}
+
+.clear { 
+	clear: both; 
+}
+
+#header {
+width: 100%;
+height: 80px;
+position: fixed;
+margin-top: 30px;
+}
+
+#nav { 
+	width: 410px; 
+	float: right; 
+	margin-top: 20px; }
+
+#logo a {
+    color: #fff;
+    text-decoration: overline;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "Wellfleet";
+    font-weight: bold;
+    text-shadow: 1px 1px 21px #000000;
+}
+
+#nav ul{
+list-style: none;
+display: block;
+margin: 0 auto;
+}
+
+#nav li{
+    float: none;
+    clear: none;
+    text-align: right;
+    padding-right: 120px;
+    margin-top: 3px;
+}
+
+#nav li a {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Wellfleet';
+    text-shadow: 1px 1px 21px #000000;
+}
+
+#nav li a.active {
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid #fff;
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+}
+
+#nav li a:hover { 
+	color: #fff; 
+	opacity:1; }
+
+.era_name_white { 
+	 font-family:"Wellfleet"; 
+	 margin: 70px 0 0 75px; 
+	 color: #fff; 
+	 font-size: 20px; 
+} 
+
+.era_name_text { 
+	font-family:"Wellfleet"; 
+	margin: 70px 0 0 75px; 
+	color: #000000; 
+	font-size: 20px; 
+} 
+
+.info_container { 
+	width: 85%; 
+	margin: 0 auto; 
+}
+
+#divider { 
+	background: url('../img/divider.png')no-repeat; 
+	width: 300px; height: 35px; 
+	margin: 0px auto 27px auto; }
+
+#slide1, #slide2{ 
+	width: 100%; 
+}
+#era_header1{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide1{
+	background: 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    background-color: #C482BE;
+	background-image: url(../Images/tswift_bg.jpg);
+}
+#era_header2{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide2{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url(../Images/debut_slide_bg.png);
+	background-size: cover;
+}
+#era_header3{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide3{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url(../Images/fearless_slide_bg.png);
+	background-size: cover;
+}
+#era_header4{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide4{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url("../Images/speaknow_slide_bg.png");
+	background-size: cover;
+}
+#era_header5{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide5{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url("../Images/red_slide_bg.png");
+	background-size: cover;
+}
+#era_header6{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide6{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url("../Images/1989_slide_bg.png");
+	background-size: cover;
+}#era_header7{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide7{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url(../Images/rep_slide_bg.png);
+	background-size: cover;
+}
+#era_header8{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide8{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url(../Images/lover_slide_bg.png);
+	background-size: cover;
+}
+#era_header9{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide9{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url(../Images/folklore_slide_bg.png);
+	background-size: cover;
+}
+#era_header10{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide10{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url(../Images/evermore_slide_bg.png);
+	background-size: cover;
+}
+#era_header11{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide11{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0; 
+	background: fixed;
+	background-image: url("../Images/fearlesstv_slide_bg.png");
+	background-size: cover;
+}
+#era_header12{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+}
+#slide12{
+    color: #FFFFFF;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../Images/redtv_slide_bg.png);
+}
+#outro{
+background-color: #602223;
+color: #333333;
+height: 50px;
+padding: 10px 0;
+opacity: 50%;
+}
+
+.debut_position {
+	
+}
+.fearless_position {
+    left: 20%;
+}
+.fun_facts {
+    text-align: justify;
+    width: 55%;
+    font-size: 20px;
+    clear: none;
+    float: right;
+    max-width: 500px;
+}
